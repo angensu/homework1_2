@@ -7,7 +7,27 @@
     <link rel="shortcut icon" href="favicon.png" type="image/png">
     <title>Login</title>
 </head>
-<body>
-    
+<body bgcolor="acecfa">
+    <a href="page1.html">На главную</a> |
+    <a href="registration.html">Зарегистрироваться</a>
+    <hr>
+    <div align="center">
+        <h3>Авторизация</h3>
+        <form action="">
+            <fieldset style="border:1px rgb(74, 5, 131);border-style:groove;border-color: blueviolet; border-width: thick;">
+                <p align="center">
+                    <label for="login">   email</label>
+                    <input id="login" type="email" name="email" required placeholder="Введите свой email"></input>
+                </p>
+                <p align="center">
+                    <label for="pass">Password</label>
+                    <input id="pass" type="password" name="password" required minlength="6" maxlength="16" placeholder="Введите пароль">
+                </p>
+                <p>
+                    <input type="submit" value="Авторизация"></input>
+                </p>
+            </fieldset>
+        </form>  
+    </div>
 </body>
 </html>
